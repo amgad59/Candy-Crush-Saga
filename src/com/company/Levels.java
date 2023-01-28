@@ -740,7 +740,7 @@ public class Levels {
         if(Score >= targetScore){
             Score += Moves_count*60;
             score_obj.add_player(Menu.pass_name,Score);
-            GamePanel.setLevelPassed(GamePanel.getCurrentLevel()+1,true);
+            GamePanel.setLevelPassed(GamePanel.getCurrentLevel(),true);
             level_game_index = game_ended_index ;
         }
     }

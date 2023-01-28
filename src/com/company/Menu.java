@@ -486,15 +486,15 @@ public class Menu implements KeyListener{
 
             }
             
-            else if (e.getX()>380 && e.getX()<510 && e.getY() > 20 && e.getY() <150 && GamePanel.getLevelPassed(1)){
+            else if (e.getX()>380 && e.getX()<510 && e.getY() > 20 && e.getY() <150 && GamePanel.getLevelPassed(0)){
                 GamePanel.setCurrentLevel(1);
                 GamePanel.game_index=1;
             }
-            else if (e.getX()>630 && e.getX()<760 && e.getY() > 20 && e.getY() <150 && GamePanel.getLevelPassed(2)){
+            else if (e.getX()>630 && e.getX()<760 && e.getY() > 20 && e.getY() <150 && GamePanel.getLevelPassed(1)){
                 GamePanel.setCurrentLevel(2);
                 GamePanel.game_index=1;
             }
-               else if (e.getX()>840 && e.getX()<980 && e.getY() > 5 && e.getY() <135 && GamePanel.getLevelPassed(3)){
+               else if (e.getX()>840 && e.getX()<980 && e.getY() > 5 && e.getY() <135 && GamePanel.getLevelPassed(2)){
                 GamePanel.setCurrentLevel(3);
                 GamePanel.game_index=1;
             }

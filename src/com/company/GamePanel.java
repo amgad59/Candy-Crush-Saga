@@ -20,7 +20,7 @@ public class GamePanel extends JPanel implements Runnable {
             level[1] = new Levels(4,7,10,4);
             level[2] = new Levels(6,4,20,5);
             level[3] = new Levels(8,8,30,6);
-            levelPassed = new boolean[4];
+            levelPassed = new boolean[5];
         this.setFocusable(true);
         this.addMouseListener(new AL());
         this.addMouseMotionListener(new AL());
